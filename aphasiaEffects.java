@@ -41,6 +41,8 @@ public class aphasiaEffects {
 	 }
 	
 	public void addPauses() {
+		System.out.println("Aphasia patients might also add lengthy pauses at unusual points throught\n"
+				+ "their sentence.");
 		int rand = (int)(Math.random()*message.length());
 		String s1 = message.substring(0, rand);
 		String s2 = message.substring(rand, message.length());
